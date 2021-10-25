@@ -35,6 +35,6 @@ telnet 127.0.0.1 8888
 ```
 
 ## Error de conexiones:
-_Connection time out - lado del cliente  //La ip que va a usar el cliente tiene que se muestra publicamente_
+_Connection time out - lado del cliente  //La ip que va a usar el cliente tiene que ser la que se muestra publicamente_
 
 _Connection refused - lado del server   //La ip del servidor tiene que ser IPv4_
