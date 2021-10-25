@@ -16,7 +16,9 @@ _desactivar directamente todo el firewall._
 ## Opcional(?)
 
 _Añadir IP en el archivo HOSTS de System32 (el archivo especifica como se tiene que agregar)_
-_C:\Windows\System32\drivers\etc_
+```
+C:\Windows\System32\drivers\etc
+```
 
 ## Páginas para verificar puertos y dirección IP:
 
