@@ -35,6 +35,12 @@ telnet 127.0.0.1 8888
 ```
 
 ## Error de conexiones:
-_Connection time out - lado del cliente  //La ip que va a usar el cliente tiene que ser la que se muestra publicamente_
 
-_Connection refused - lado del server   //La ip del servidor tiene que ser IPv4_
+_Connection time out - lado del cliente_
+* Cuando la conexión se realiza a una red externa la ip del cliente debe ser la pública
+* Cuando es una conexión en una misma red debe ser la IPv4 / localhost / 127.0.0.1
+
+_Connection refused - lado del server_
+* Abrir puerto del server en la página del router
+* La IP del servidor debe ser IPv4
+* Desactivar Firewall / Agregar el servidor en una excepción / Agregar una regla de salida y entrada del puerto.
